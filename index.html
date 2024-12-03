@@ -3,47 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио Андрея</title>
+    <title>Прогноз погоды</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>👨‍💻 Андрей — Веб-разработчик</h1>
-            <ul>
-                <li><a href="#about">Обо мне</a></li>
-                <li><a href="#projects">Проекты</a></li>
-                <li><a href="#contact">Контакты</a></li>
-            </ul>
-        </nav>
+        <h1>🌦️ Прогноз погоды</h1>
+        <p>Узнайте, какая погода за окном! 🏡</p>
     </header>
-    <section>        
-    </section>
-    <section id="about">
-        <h2>Обо мне</h2>
-        <p>Привет! Я Андрей, начинающий веб-разработчик. 🚀 Люблю создавать стильные и современные сайты, изучаю новые технологии и ищу интересные проекты.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Мои проекты</h2>
-        <div class="project-card">
-            <h3>Проект 1</h3>
-            <p>Описание первого проекта. 🌟</p>
-        </div>
-        <div class="project-card">
-            <h3>Проект 2</h3>
-            <p>Описание второго проекта. 💡</p>
-        </div>
-    </section>
-    
+
+    <main>
+        <section class="weather">
+            <input type="text" id="cityInput" placeholder="Введите город 🌍">
+            <button onclick="getWeather()">Узнать погоду ☁️</button>
+            <div id="weatherResult">
+                <h2>🌞 Сегодня в городе:</h2>
+                <p>Введите город, чтобы увидеть прогноз!</p>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2024 Андрей. Все права защищены. | 📧 <a href="mailto:example@mail.com">example@mail.com</a></p>
-        <ul class="socials">
-            <li><a href="#">🌐 LinkedIn</a></li>
-            <li><a href="#">🐦 Twitter</a></li>
-            <li><a href="#">📸 Instagram</a></li>
-        </ul>
+        <p>© 2024 Прогноз Погоды. Все права защищены. | Сделано с ❤️</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
