@@ -12,7 +12,7 @@ body {
 
 /* Шапка */
 header {
-    background: #4caf50;
+    background: #4caf9d;
     color: white;
     padding: 2rem 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@ header h1 {
     margin: 0;
 }
 
-header p {
+header p {clear
     font-size: 1.2rem;
     margin-top: 0.5rem;
 }
@@ -32,7 +32,7 @@ header p {
 .weather {
     margin: 2rem auto;
     padding: 2rem;
-    max-width: 500px;
+    max-width: 600px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,7 +48,7 @@ header p {
 }
 
 .weather button {
-    background: #4caf50;
+    background: #4cafa2;
     color: white;
     border: none;
     padding: 0.8rem 1.2rem;
@@ -67,14 +67,26 @@ header p {
     font-size: 1.2rem;
 }
 
+#weatherResult img {
+    max-width: 100px;
+    margin: 0.5rem 0;
+}
+
+.weather-details {
+    text-align: left;
+    margin: 1rem auto;
+    max-width: 500px;
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Подвал */
 footer {
     background: #333;
     color: white;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     font-size: 0.9rem;
 }
 
